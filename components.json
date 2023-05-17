@@ -1,0 +1,95 @@
+{
+  "timestamp": "2023-05-17T00:10:30",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "3.2.2",
+    "typescriptVersion": "4.9.5"
+  },
+  "components": [
+    {
+      "filePath": "./src/components/my-component/my-component.tsx",
+      "encapsulation": "shadow",
+      "tag": "my-component",
+      "readme": "# my-component\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "first",
+          "type": "string",
+          "mutable": false,
+          "attr": "first",
+          "reflectToAttr": false,
+          "docs": "The first name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "mutable": false,
+          "attr": "last",
+          "reflectToAttr": false,
+          "docs": "The last name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "mutable": false,
+          "attr": "middle",
+          "reflectToAttr": false,
+          "docs": "The middle name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "setActive",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "signature": "setActive(active: boolean) => Promise<void>",
+          "parameters": [],
+          "docs": "Sets something active.",
+          "docsTags": [
+            {
+              "name": "param",
+              "text": "active - Whether to set something active."
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    }
+  ]
+}
